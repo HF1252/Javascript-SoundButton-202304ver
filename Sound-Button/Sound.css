@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #df9ecd;
+    font-family: serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background-color: #e05fbc;
+    border-radius: 5px;
+    border: none;
+    color: #7dc1ee;
+    font-size: 2.5rem;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 1023px) {
+    .btn {
+        font-size: 1.5rem;
+        margin: 18px 121px;
+    }
+}
+
+.btn:hover {
+    opacity: 0.9;
+    background-color: #7deec8;
+}
+
+.btn:focus {
+    outline: none;
+}
